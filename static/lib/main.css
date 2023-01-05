@@ -1,0 +1,53 @@
+:host {
+  --accentColor: #33658a;
+  --dialogueColor: #86bbd8;
+  --textColor: #fdfdff;
+  --contentSpacing: 9px;
+  --backgroundColor: var(--textColor);
+  --borderRadius: 5px;
+  --textColorSlight: #92acc1;
+}
+
+:root {
+  --accentColor: #33658a;
+  --dialogueColor: #86bbd8;
+  --textColor: #fdfdff;
+  --contentSpacing: 9px;
+  --backgroundColor: var(--textColor);
+}
+
+@font-face {
+  font-family: Jaldi;
+  src: url("/lib/fonts/Jaldi-Regular.ttf");
+}
+
+a,
+b,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Jaldi;
+  color: var(--textColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  margin: 0;
+  padding: var(--contentSpacing);
+  display: flex;
+  flex-direction: column;
+  gap: var(--contentSpacing);
+}

@@ -1,0 +1,10 @@
+{
+  "components": {
+    "head": {
+      "name": "t-head",
+      "template": "/components/head/index.html",
+      "component": "/components/head/main.js",
+      "styles": ["/main.css", "/components/head/style.css"]
+    }
+  }
+}

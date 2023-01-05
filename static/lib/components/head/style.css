@@ -1,0 +1,39 @@
+#head {
+  padding: var(--contentSpacing);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--accentColor);
+  border-radius: var(--borderRadius);
+  box-sizing: border-box;
+  position: relative;
+}
+
+#product {
+  display: flex;
+  gap: var(--contentSpacing);
+  align-items: center;
+}
+
+#product img {
+  height: 50px;
+  border-radius: var(--borderRadius);
+  border: 2px solid #6898bc;
+}
+
+#timeWrap {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+a {
+  margin: 0;
+  margin-right: var(--contentSpacing);
+}
+
+#date {
+  color: var(--textColorSlight);
+}
