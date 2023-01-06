@@ -1,0 +1,22 @@
+#wrap {
+  background-color: var(--dialogueColor);
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  gap: var(--contentSpacing);
+  padding: var(--contentSpacing);
+}
+
+#taskWrap {
+  background-color: var(--backgroundColor);
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+#title {
+  font-size: 150%;
+  margin: 0;
+  line-height: 100%;
+}

@@ -5,6 +5,12 @@
       "template": "/components/head/index.html",
       "component": "/components/head/main.js",
       "styles": ["/main.css", "/components/head/style.css"]
+    },
+    "task-list": {
+      "name": "t-task-list",
+      "template": "/components/task-list/index.html",
+      "component": "/components/task-list/main.js",
+      "styles": ["/main.css", "/components/task-list/style.css"]
     }
   }
 }
