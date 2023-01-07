@@ -6,6 +6,8 @@
   --backgroundColor: var(--textColor);
   --borderRadius: 5px;
   --textColorSlight: #92acc1;
+  --green: #758e4f;
+  --orange: #f6ae2d;
 }
 
 :root {
@@ -14,6 +16,10 @@
   --textColor: #fdfdff;
   --contentSpacing: 9px;
   --backgroundColor: var(--textColor);
+  --borderRadius: 5px;
+  --textColorSlight: #92acc1;
+  --green: #758e4f;
+  --orange: #f6ae2d;
 }
 
 @font-face {

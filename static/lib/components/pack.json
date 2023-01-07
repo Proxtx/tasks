@@ -11,6 +11,12 @@
       "template": "/components/task-list/index.html",
       "component": "/components/task-list/main.js",
       "styles": ["/main.css", "/components/task-list/style.css"]
+    },
+    "task": {
+      "name": "t-task",
+      "template": "/components/task/index.html",
+      "component": "/components/task/main.js",
+      "styles": ["/main.css", "/components/task/style.css"]
     }
   }
 }

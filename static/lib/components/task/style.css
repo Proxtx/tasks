@@ -1,0 +1,49 @@
+#wrap {
+  border-bottom: 1px solid var(--accentColor);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+#task a {
+  color: var(--accentColor);
+  margin-left: var(--contentSpacing);
+  font-size: 120%;
+}
+
+#task {
+  position: relative;
+  background-color: var(--backgroundColor);
+}
+
+#edit {
+  position: absolute;
+  background-color: var(--orange);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: var(--contentSpacing);
+}
+
+#edit img {
+  height: 70%;
+}
+
+#done {
+  position: absolute;
+  background-color: var(--green);
+  width: 50%;
+  height: 100%;
+  right: 0%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-right: var(--contentSpacing);
+}
+
+#done img {
+  height: 70%;
+}
