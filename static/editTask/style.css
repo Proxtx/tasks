@@ -10,3 +10,8 @@ body {
   height: 100vh;
   box-sizing: border-box;
 }
+
+m-tab {
+  background-color: var(--dialogueColor);
+  --varCascading: 0;
+}
