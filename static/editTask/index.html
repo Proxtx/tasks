@@ -10,10 +10,24 @@
     <t-head></t-head>
     <m-tabs id="tabs">
       <m-tab name="Details">
-        <m-text-input placeholder="Title" class="input"></m-text-input
-      ></m-tab>
+        <m-text-input placeholder="Title" class="input"></m-text-input>
+        <br /><br />
+        <m-text-input
+          placeholder="Description"
+          class="input"
+          textarea="true"
+        ></m-text-input>
+      </m-tab>
       <m-tab name="Requirements"></m-tab>
-      <m-tab name="Importance"></m-tab>
+      <m-tab name="Importance">
+        <select id="importanceSelector">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </m-tab>
     </m-tabs>
     <script src="private/render/linker.js" class="server"></script>
   </body>

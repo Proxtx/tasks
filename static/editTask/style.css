@@ -12,6 +12,16 @@ body {
 }
 
 m-tab {
-  --backgroundColor: var(--dialogueColor);
+  --varCascading: 0;
   background-color: var(--dialogueColor);
+  --greyText: rgb(255 255 255 / 70%);
+}
+
+#importanceSelector {
+  background-color: var(--dialogueColor);
+  width: 100%;
+  border: 5px solid var(--accentColor);
+  border-radius: var(--borderRadius);
+  color: white;
+  padding: var(--contentSpacing);
 }
