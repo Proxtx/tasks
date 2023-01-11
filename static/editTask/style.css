@@ -12,6 +12,6 @@ body {
 }
 
 m-tab {
+  --backgroundColor: var(--dialogueColor);
   background-color: var(--dialogueColor);
-  --varCascading: 0;
 }
