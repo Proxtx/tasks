@@ -21,12 +21,18 @@
         <m-text-input placeholder="Duration" number="true"></m-text-input>
       </m-tab>
       <m-tab name="Requirements">
-        <m-checkbox></m-checkbox><input type="datetime-local" />
-        <m-checkbox></m-checkbox
-        ><select id="places"></select>
+        <div class="requirementWrap">
+          <m-checkbox></m-checkbox
+          ><input class="non-mInput" type="datetime-local" />
+        </div>
+        <br />
+        <div class="requirementWrap">
+          <m-checkbox></m-checkbox
+          ><select id="places" class="non-mInput"></select>
+        </div>
       </m-tab>
       <m-tab name="Importance">
-        <select id="importanceSelector">
+        <select id="importanceSelector" class="non-mInput">
           <option>1</option>
           <option>2</option>
           <option>3</option>

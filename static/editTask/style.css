@@ -17,11 +17,17 @@ m-tab {
   --greyText: rgb(255 255 255 / 70%);
 }
 
-#importanceSelector {
+.non-mInput {
   background-color: var(--dialogueColor);
   width: 100%;
   border: 5px solid var(--accentColor);
   border-radius: var(--borderRadius);
   color: white;
   padding: var(--contentSpacing);
+}
+
+.requirementWrap {
+  display: flex;
+  align-items: center;
+  gap: var(--contentSpacing);
 }
